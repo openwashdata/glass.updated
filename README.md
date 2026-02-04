@@ -85,6 +85,16 @@ loading the package.
 ``` r
 library(glass.updated)
 library(tidyverse)
+#> ── Attaching core tidyverse packages ──────────────────────── tidyverse 2.0.0 ──
+#> ✔ dplyr     1.1.4     ✔ readr     2.1.5
+#> ✔ forcats   1.0.0     ✔ stringr   1.5.1
+#> ✔ ggplot2   4.0.0     ✔ tibble    3.3.0
+#> ✔ lubridate 1.9.4     ✔ tidyr     1.3.1
+#> ✔ purrr     1.1.0     
+#> ── Conflicts ────────────────────────────────────────── tidyverse_conflicts() ──
+#> ✖ dplyr::filter() masks stats::filter()
+#> ✖ dplyr::lag()    masks stats::lag()
+#> ℹ Use the conflicted package (<http://conflicted.r-lib.org/>) to force all conflicts to become errors
 
 # Load the dataset
 data("glaas")
@@ -110,6 +120,11 @@ glaas |>
     panel.grid.major.x = element_blank(),
     panel.grid.minor = element_blank()
   )
+```
+
+<img src="man/figures/README-example-1.png" width="100%" />
+
+``` r
 
 # Plot 2: Participation by World Bank income group
 glaas |>
@@ -143,6 +158,11 @@ glaas |>
     panel.grid.minor = element_blank()
   ) +
   guides(fill = guide_legend(nrow = 2))
+```
+
+<img src="man/figures/README-example-2.png" width="100%" />
+
+``` r
 
 # Plot 3: Participation by UNICEF region
 glaas |>
@@ -172,6 +192,11 @@ glaas |>
     panel.grid.minor = element_blank()
   ) +
   guides(fill = guide_legend(nrow = 3, byrow = TRUE))
+```
+
+<img src="man/figures/README-example-3.png" width="100%" />
+
+``` r
 
 # Plot 4: Thematic coverage
 glaas |>
@@ -203,6 +228,8 @@ glaas |>
   ) +
   guides(color = guide_legend(nrow = 2))
 ```
+
+<img src="man/figures/README-example-4.png" width="100%" />
 
 ## Contributing
 

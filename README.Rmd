@@ -75,7 +75,7 @@ For a complete description of all 121 variables, see `?glaas` after loading the 
 
 ## Usage Examples
 
-```{r example, eval = FALSE}
+```{r example}
 library(glass.updated)
 library(tidyverse)
 
