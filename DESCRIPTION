@@ -11,5 +11,5 @@ RoxygenNote: 7.3.3
 Depends: 
     R (>= 3.5)
 LazyData: true
-LazyDataCompression:xz
-
+LazyDataCompression: xz
+URL: https://openwashdata.github.io/glass.updated/
