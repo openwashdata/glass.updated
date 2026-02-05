@@ -6,14 +6,14 @@
 
 ## Citation
 
-Last F (2026). *glass.updated: What the Package Does (One Line, Title
-Case)*. R package version 0.0.0.9000,
-<https://openwashdata.github.io/glass.updated/>.
+Massari N, Walder C (2026). glass.updated: Complete data from the Global
+Analysis and Assessment of Sanitation and Drinking-Water (GLAAS). R
+package version 0.0.0.9000, https://github.com/openwashdata/glaas.
 
     @Manual{,
-      title = {glass.updated: What the Package Does (One Line, Title Case)},
-      author = {First Last},
+      title = {glass.updated: Complete data from the Global Analysis and Assessment of Sanitation and Drinking-Water (GLAAS)},
+      author = {Nicolo Massari and Colin Walder},
       year = {2026},
       note = {R package version 0.0.0.9000},
-      url = {https://openwashdata.github.io/glass.updated/},
+      url = {https://github.com/openwashdata/glaas},
     }
